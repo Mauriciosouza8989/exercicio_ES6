@@ -15,14 +15,14 @@ class Avaliacao {
 
     aprovados(listaDeAlunos){
         const alunosAprovados = []
-        listaDeAlunos.filter(aluno => {
+        for (let aluno of listaDeAlunos){
             const notas = aluno.notas;
             const media = this.calculaMedia(notas);
             if(media >= 6){
                 aluno.media = media;
                 alunosAprovados.push(aluno);
             }
-        })
+        }
         return alunosAprovados.filter(aluno => aluno.media >= 6);
     }
     
