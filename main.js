@@ -1,19 +1,3 @@
-//Com filter
-// lista = [
-//     {nome: 'Maurício Sousa', media: 8},
-//     {nome: 'Luciano Sousa', media: 7},
-//     {nome: 'Patricia Sousa', media: 6},
-//     {nome: 'Gessica Sousa', media: 5}
-// ];
-
-// function aprovados(listaDeAlunos){
-//     return listaDeAlunos.filter(aluno => aluno.media >= 6);
-// }
-// console.log(aprovados(lista));
-
-
-
-
 lista = [
     {nome: 'Maurício Sousa', notas: [6,7,8,9]},
     {nome: 'Luciano Sousa', notas: [4,5,8,9]},
